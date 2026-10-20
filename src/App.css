@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+}
+
+nav {
+  background: #1e293b;
+  padding: 16px 40px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+nav a.active {
+  color: #38bdf8;
+  border-bottom: 2px solid #38bdf8;
+  padding-bottom: 4px;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  width: 500px;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.card p {
+  color: #64748b;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.card button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.page-container{
+    min-height: calc(100vh - 70px);
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top:80px;
+}
+
+.card button{
+    padding:14px 30px;
+    font-weight:600;
+    letter-spacing:.3px;
+}
+
+body{
+    background:linear-gradient(135deg,#eef2ff,#f8fafc);
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.secondary-btn {
+  background: #475569 !important;
+}
+
+.secondary-btn:hover {
+  background: #334155 !important;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 16px 40px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav h2 {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
