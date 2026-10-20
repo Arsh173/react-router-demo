@@ -1,16 +1,113 @@
-# React + Vite
+# ⚛️ React Router Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application demonstrating **client-side routing** using **React Router DOM**. This project showcases page navigation, programmatic routing, active links, and a custom UI with a clean, responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+**Coming Soon**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏠 Home Page
+- ℹ️ About Page
+- 🛠️ Support Page
+- 📚 Labs Page
+- 🔄 Client-side Routing with React Router DOM
+- 🎯 Active Navigation Links using `NavLink`
+- 🚀 Programmatic Navigation using `useNavigate`
+- 📱 Responsive & Clean UI
+- 🎨 Modern Navigation Bar
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router DOM
+- CSS3
+- Vite
+- JavaScript (ES6)
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+│── components
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Support.jsx
+│   ├── Labs.jsx
+│   ├── MainHeader.jsx
+│   └── NotFound.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home](./screenshots/home.png)
+
+### ℹ️ About Page
+
+![About](./screenshots/about.png)
+
+### 🛠️ Support Page
+
+![Support](./screenshots/support.png)
+
+### 📚 Labs Page
+
+![Labs](./screenshots/labs.png)
+
+---
+
+## 📚 React Concepts Practiced
+
+- React Components
+- React Router DOM
+- Routes & Route
+- Nested Routes
+- Outlet
+- NavLink
+- useNavigate Hook
+- Component-based Architecture
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Arsh173/react-router-demo.git
+
+cd react-router-demo
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+**Arsh**
+
+- GitHub: https://github.com/Arsh173
+- LinkedIn: https://linkedin.com/in/arsh0786
+
+---
+
+⭐ If you found this project helpful, consider giving it a star!
